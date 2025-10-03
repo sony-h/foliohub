@@ -40,7 +40,7 @@ export default function Services() {
               </div>
             </div>
 
-            <h2 className="text-4xl font-normal font-unbounded mb-5 transition-colors duration-300 group-hover:text-[var(--primary-color)]">
+            <h2 className="text-2xl lg:text-4xl font-normal font-unbounded mb-5 transition-colors duration-300 group-hover:text-[var(--primary-color)]">
               {service.title}
             </h2>
 

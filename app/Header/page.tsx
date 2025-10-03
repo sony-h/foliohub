@@ -45,19 +45,19 @@ export default function Header() {
   return (
     <header className="h-[100vh] text-white py-12 relative">
       {/* BG Elements */}
-      <div className="absolute top-0 left-0 w-[300px] h-[300px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10" />
-      <div className="absolute top-0 right-0 w-[700px] h-[700px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10" />
-      <div className="absolute bottom-0 left-[20%] w-[500px] h-[500px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10" />
+      <div className="absolute top-0 left-0 w-[100px] h-[100px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-xl md:blur-[100px] -z-10" />
+      <div className="absolute top-[20%] md:top-0 right-[10%] w-[250px] h-[250px] md:w-[300px] md:h-[300px] lg:w-[700px] lg:h-[700px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10" />
+      <div className="absolute bottom-[5%] left-[20%] w-[120px] h-[120px] md:w-[200px] md:h-[200px] lg:w-[500px] lg:h-[500px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-xl md:blur-[100px] -z-10" />
 
       <div className="flex pt-10 flex-col lg:flex-row items-center justify-between px-[8%] lg:px-[16%]">
         {/* Left Content */}
         <div className="lg:w-1/2 text-start md:text-left">
           <p className="text-lg mb-2 text-gray-400">Web Developer</p>
-          <h1 className="text-7xl text-start lg:text-8xl font-unbounded font-normal mb-2">
+          <h1 className="text-start text-2xl md:text-5xl lg:text-8xl font-unbounded font-normal mb-2">
             Hello I&apos;m{" "}
             <span className="text-[color:var(--primary-color))]">Sony H</span>
           </h1>
-          <p className="text-gray-400 text-md lg:text-xl font-normal font-sora my-8">
+          <p className="text-gray-400 text-sm md:text-md lg:text-xl font-normal font-sora my-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
             facere libero culpa molestiae, alias obcaecati dicta neque!
             Provident, facere vero.
@@ -81,7 +81,7 @@ export default function Header() {
           </div>
         </div>
         {/* Right Image */}
-        <div className="lg:w-1/2 w-full mt-10 lg:mt-0 flex justify-center relative">
+        <div className="lg:w-1/2 w-[75%] mt-10 lg:mt-0 flex justify-center relative">
           <div className="relative rounded-full flex items-center justify-center">
             <div className="relative hero-image w-full h-full rounded-full overflow-hidden bg-gradient-to-r from-[var(--hero-image-from)] to-[var(--hero-image-to)]">
               <Image

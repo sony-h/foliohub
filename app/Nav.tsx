@@ -21,7 +21,7 @@ export default function Nav() {
       <div className="flex justify-between items-center px-[10%] lg:*:px-[8%] py-6">
         <Link
           href="/"
-          className="text-5xl font-bold font-unbounded text-white logo"
+          className="text-xl md:text-3xl lg:text-5xl font-bold font-unbounded text-white logo"
         >
           Folio
           <span className="text-[var(--primary-color)] font-unbounded">
@@ -48,7 +48,7 @@ export default function Nav() {
           </div>
           <Link
             href="/Contact"
-            className="bg-[var(--primary-color)] px-5 py-2 text-xl text-white font-semibold cursor-pointer rounded-full transition-all duration-300 hover:bg-transparent shadow-md hover:shadow-[0px_2px_5px_var(--primary-color)]"
+            className="bg-[var(--primary-color)] px-5 py-2 text-sm md:text-md lg:text-lg text-white font-semibold cursor-pointer rounded-full transition-all duration-300 hover:bg-transparent shadow-md hover:shadow-[0px_2px_5px_var(--primary-color)]"
           >
             Hire Us
           </Link>
