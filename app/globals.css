@@ -34,7 +34,7 @@
 body {
   background: #1c1b21;
   color: var(--white-color);
-  overflow: hidden !important;
+  overflow-y: auto;
 }
 
 /* Navbar */
