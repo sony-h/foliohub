@@ -17,8 +17,8 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="w-full z-[100] transition-all duration-300">
-      <div className="flex justify-between items-center px-[10%] lg:*:px-[8%] py-6">
+    <nav className="max-w-full z-[100] transition-all duration-300">
+      <div className="flex justify-center lg:justify-between items-center px-[10%] lg:*:px-[8%] py-6 gap-2 md:gap-20">
         <Link
           href="/"
           className="text-xl md:text-3xl lg:text-5xl font-bold font-unbounded text-white logo"

@@ -43,7 +43,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="max-h-[100vh] text-white py-12 relative">
+    <header className="max-h-[100vh] max-w-full text-white py-12 relative">
       {/* BG Elements */}
       <div className="absolute top-0 left-0 w-[100px] h-[100px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-xl md:blur-[100px] -z-10" />
       <div className="absolute top-[20%] md:top-0 right-[10%] w-[250px] h-[250px] md:w-[300px] md:h-[300px] lg:w-[700px] lg:h-[700px] rounded-full bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10" />
@@ -83,7 +83,7 @@ export default function Header() {
         {/* Right Image */}
         <div className="lg:w-[35%] w-[75%] mt-10 lg:mt-0 flex justify-center relative">
           <div className="relative rounded-full flex items-center justify-center">
-            <div className="relative hero-image w-[30vh] md:w-[40vh] lg:w-[50vh] h-full rounded-full overflow-hidden bg-gradient-to-r from-[var(--hero-image-from)] to-[var(--hero-image-to)]">
+            <div className="relative hero-image w-[20vh] md:w-[25vh] lg:w-[50vh] h-full rounded-full overflow-hidden bg-gradient-to-r from-[var(--hero-image-from)] to-[var(--hero-image-to)]">
               <Image
                 src={Hero}
                 alt="Portfolio Picture"
