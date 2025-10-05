@@ -81,9 +81,9 @@ export default function Header() {
           </div>
         </div>
         {/* Right Image */}
-        <div className="lg:w-1/2 w-[75%] mt-10 lg:mt-0 flex justify-center relative">
+        <div className="lg:w-[35%] w-[75%] mt-10 lg:mt-0 flex justify-center relative">
           <div className="relative rounded-full flex items-center justify-center">
-            <div className="relative hero-image w-[50vh] h-full rounded-full overflow-hidden bg-gradient-to-r from-[var(--hero-image-from)] to-[var(--hero-image-to)]">
+            <div className="relative hero-image w-[30vh] md:w-[40vh] lg:w-[50vh] h-full rounded-full overflow-hidden bg-gradient-to-r from-[var(--hero-image-from)] to-[var(--hero-image-to)]">
               <Image
                 src={Hero}
                 alt="Portfolio Picture"
@@ -102,11 +102,11 @@ export default function Header() {
               ref={(el) => {
                 countRefs.current[index] = el;
               }}
-              className="text-7xl font-unbounded font-bold"
+              className="text-6xl font-unbounded font-bold"
             >
               0
             </h1>
-            <p className="text-xl ps-4 text-gray-400 font-semibold whitespace-pre-line">
+            <p className="text-xl ps-2 text-gray-400 font-semibold whitespace-pre-line">
               {stat.label}
             </p>
           </div>
